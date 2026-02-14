@@ -1,0 +1,23 @@
+# Environments
+env/
+venv/
+ENV/
+
+# Django files
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local settings/Secrets
+.env
+local_settings.py
+
+# IDEs
+.vscode/
+.idea/
