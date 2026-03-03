@@ -1,1 +1,1 @@
-web: python manage.py migrate && daphne -b 0.0.0.0 -p $PORT chatApp.asgi:application
+cd chatApp && python manage.py migrate && daphne -b 0.0.0.0 -p $PORT chatApp.asgi:application
